@@ -1,7 +1,7 @@
 {
-  "name": "expense-tracker-api",
+  "name": "expense-tracker-full-stack",
   "version": "1.0.0",
-  "description": "",
+  "description": "Expense Tracker",
   "main": "index.js",
   "scripts": {
     "test": "mocha --require test/setup.js",
@@ -13,6 +13,9 @@
     "deploy": "git push heroku master"
   },
   "keywords": [],
+  "engines": {
+    "node": "12.16.1"
+  },
   "author": "Oscar Zamudio",
   "license": "ISC",
   "dependencies": {
