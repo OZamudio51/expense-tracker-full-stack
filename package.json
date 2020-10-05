@@ -10,8 +10,7 @@
     "client": "npm start --prefix client",
     "develop": "concurrently \"npm run dev\" \"npm run client\"",
     "predeploy": "npm audit",
-    "deploy": "git push heroku master",
-    "heroku-postbuild": "npm install --prefix client && npm run build --prefix client"
+    "deploy": "git push heroku master"
   },
   "keywords": [],
   "engines": {
