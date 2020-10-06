@@ -1,5 +1,6 @@
 const path = require('path');
 require('dotenv').config();
+const dotenv = require('dotenv');
 const express = require('express');
 const morgan = require('morgan');
 const cors = require('cors');
@@ -7,6 +8,8 @@ const colors = require('colors');
 const helmet = require('helmet');
 const { NODE_ENV } = require('./config');
 const connectDB = require('./db');
+
+dotenv.config({ path: '.env' });
 
 connectDB();
 
